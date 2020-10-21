@@ -13,9 +13,12 @@ a{
   text-decoration: none;
 
 }
+h2{
+   text-transform: capitalize;
+}
 
 header{
-    width: 100vw;
+    width: 100%;
     background: #ccc;
     padding: 10px;
 
@@ -30,7 +33,21 @@ header{
     font-size: 14px;
     
 }
-
+.block {
+    
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.4;
+}
+.post {
+    border-bottom: rgb(194, 182, 182) 1px solid;
+    margin-bottom: 20px;
+    
+}
+.button {
+    margin-bottom: 10px;
+    display: inline-block;
+}
 .logo-right {
     float: right;
     margin-top: 10px;
@@ -54,6 +71,12 @@ nav {
     
 }
 
+.content {
+    height: 77vh;
+    margin-top: 10px;
+    
+}
+
 .clearfix {
     clear: both;
 }
@@ -61,4 +84,41 @@ nav {
     display: inline-block;
     
     
+}
+
+  .main {
+      width: 70%;
+      height: 100%;
+      float: left;
+  }
+
+  
+
+  .side {
+      width: 28%;
+      float: right;
+  }
+.footer {
+    background: rgb(238, 245, 199);
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(32, 30, 30);
+    height: 10vh;
+}
+
+.footer-right {
+    float: right;
+    
+}
+
+.footer-left {
+    float: left;
+    
+}
+.clearfix {
+    clear: both;
+}
+
+.footer-right , .footer-left {
+    margin: 20px;
 }
